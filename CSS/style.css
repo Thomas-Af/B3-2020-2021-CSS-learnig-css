@@ -43,7 +43,7 @@ body {
 }
 
 .colonne{
-columns: auto auto;
+columns: 4 auto;
 
 
 }
