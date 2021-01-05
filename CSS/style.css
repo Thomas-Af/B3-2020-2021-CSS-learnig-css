@@ -41,3 +41,9 @@ body {
     display: block;
   }
 }
+
+.colonne{
+columns: 6rem auto;
+
+
+}
