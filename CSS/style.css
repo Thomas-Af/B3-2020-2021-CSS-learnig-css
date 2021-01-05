@@ -42,8 +42,26 @@ body {
   }
 }
 
+h1{
+  font-size: 40 px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 30 px;
+  font-weight: bold;
+  column-span: all;
+}
+
+h3{
+  font-size: 25 px;
+  font-weight: bold;
+  font-style: italic;
+  column-span: all;
+}
+
+
 .colonne{
 columns: 4 auto;
-
-
+margin: 5px;
 }
