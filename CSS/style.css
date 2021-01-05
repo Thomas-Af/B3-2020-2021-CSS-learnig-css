@@ -1,3 +1,5 @@
+* {
+  box-sizing: border-box;}
 body {
   background: red;
 }
@@ -39,5 +41,3 @@ body {
     display: block;
   }
 }
-
-*{box-sizing : border-box}
