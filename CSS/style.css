@@ -42,6 +42,8 @@ body {
   }
 }
 
+/*-----------------------------------------------------------------------*/
+
 h1{
   font-size: 40 px;
   font-weight: bold;
@@ -63,5 +65,5 @@ h3{
 
 .colonne{
 columns: 4 225px;
-margin: 5px;
+/*margin: 5px;*/
 }
