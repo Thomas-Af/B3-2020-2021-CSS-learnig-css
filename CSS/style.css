@@ -88,3 +88,9 @@ header{
     text-decoration: none;
     background-color: #C5CDD6;
 }
+
+footer{
+  background-color: #000;
+  bottom: 0;
+
+}
