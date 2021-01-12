@@ -2,7 +2,7 @@
   box-sizing: border-box;
   /*padding : 0px;*/
 }
-
+/*-----------------------FONT-------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,300');
 
 html {font-size: 100%;} /*16px*/
@@ -27,11 +27,19 @@ h1, h2, h3, h4, h5 {
 h1 {
   margin-top: 0;
   font-size: 3.052rem;
+  font-weight: bold;
 }
 
-h2 {font-size: 2.441rem;}
+h2 {font-size: 2.441rem;
+  font-weight: bold;
+  column-span: all;
+}
 
-h3 {font-size: 1.953rem;}
+h3 {font-size: 1.953rem;
+  font-weight: bold;
+  font-style: italic;
+  column-span: all;
+}
 
 h4 {font-size: 1.563rem;}
 
@@ -46,11 +54,12 @@ footer {
   line-height: 1.75;
   color: #ffffff;
 }
-
+/*----------------------------------------------------------------------------*/
 body {
   background: red;
 }
 
+/*-----------------------MEDIA QUERIES----------------------------------------*/
 /*smartphones mobiles (portrait)*/
 @media (max-width: 480px) {
 
@@ -90,26 +99,7 @@ body {
   }
 }
 
-/*-----------------------------------------------------------------------*/
-
-h1{
-  font-size: 40 px;
-  font-weight: bold;
-}
-
-h2{
-  font-size: 30 px;
-  font-weight: bold;
-  column-span: all;
-}
-
-h3{
-  font-size: 25 px;
-  font-weight: bold;
-  font-style: italic;
-  column-span: all;
-}
-
+/*----------------------------------------------------------------------------*/
 
 .colonne{
 columns: 4 250px;
@@ -120,6 +110,7 @@ header{
     height: 60px;
     background-color: #fff;
     list-style: none;
+    /*position: absolute;*/
 
 }
 #lien{
