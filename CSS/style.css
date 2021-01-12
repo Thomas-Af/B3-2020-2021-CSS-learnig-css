@@ -59,6 +59,10 @@ body {
   background: red;
 }
 
+a{
+  color : #fff;
+}
+
 /*-----------------------MEDIA QUERIES----------------------------------------*/
 /*smartphones mobiles (portrait)*/
 @media (max-width: 480px) {
