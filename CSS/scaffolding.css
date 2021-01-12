@@ -34,6 +34,9 @@ body {
   header{
     background-color: #1E5870;
   }
+  footer{
+    background-color: #1E5870;
+  }
   .example-two {
     display: block;
     font-size: 0.75em;
@@ -49,6 +52,9 @@ body {
   header{
     background-color: #70284F;
   }
+  footer{
+    background-color: #70284F;
+  }
   .example-three {
     display: block;
   }
@@ -61,6 +67,9 @@ body {
     font-size: 1.25rem;
   }
   header{
+    background-color: #704300;
+  }
+  footer{
     background-color: #704300;
   }
   .example-three {
@@ -78,6 +87,9 @@ body {
     font-size: 1.563rem;
   }
   header{
+    background-color: #702411;
+  }
+  footer{
     background-color: #702411;
   }
   .example-four {
