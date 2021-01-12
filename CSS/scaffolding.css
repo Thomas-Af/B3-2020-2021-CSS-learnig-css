@@ -29,7 +29,7 @@ body {
   body {
     background: #2E86AB;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   header{
     background-color: #1E5870;
@@ -44,7 +44,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
     background: #A23B72;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   header{
     background-color: #70284F;
@@ -58,7 +58,7 @@ body {
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
     background: #F18F01;
-    font-size: 1.563rem;
+    font-size: 1.25rem;
   }
   header{
     background-color: #704300;
@@ -75,7 +75,7 @@ body {
 @media (min-width: 1281px) {
   body {
     background: #C73E1D;
-    font-size: 1.953rem;
+    font-size: 1.563rem;
   }
   header{
     background-color: #702411;
