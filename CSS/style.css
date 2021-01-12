@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  padding : 0px;
+  /*padding : 0px;*/
+  font-family: 'Josefin Sans', sans-serif;
 }
 body {
   background: red;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 /*smartphones mobiles (portrait)*/
@@ -68,7 +68,7 @@ h3{
 
 
 .colonne{
-columns: 4 225px;
+columns: 4 250px;
 /*margin: 5px;*/
 }
 
