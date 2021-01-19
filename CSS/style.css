@@ -63,6 +63,10 @@ a{
   color : #fff;
 }
 
+.image{
+  column-span: all;
+  text-align: center;
+}
 /*-----------------------MEDIA QUERIES----------------------------------------*/
 /*smartphones mobiles (portrait)*/
 @media (max-width: 480px) {
