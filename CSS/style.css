@@ -139,3 +139,27 @@ footer{
   background-color: #000;
   bottom: 0;
 }
+
+
+/*----------------Image profil-------------------------------*/
+.image-profil {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+  @media (min-width: 600px) {
+    height: 100vh;
+  }
+}
+
+.profil {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+/*--------------------------------------------------------*/
+.picture{
+  text-align: center;
+}
