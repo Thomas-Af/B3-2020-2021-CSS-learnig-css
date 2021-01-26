@@ -121,7 +121,7 @@ header{
     /*position: absolute;*/
 
 }
-#lien{
+.lien{
     text-decoration: none;
     color: #ffffff;
     float: right;
@@ -130,7 +130,7 @@ header{
     font-size: 21px;
 
 }
-#lien a:hover{
+.lien a:hover{
     text-decoration: none;
     background-color: #C5CDD6;
 }
@@ -162,4 +162,8 @@ footer{
 /*--------------------------------------------------------*/
 .picture{
   text-align: center;
+  height: 50vh;
+  @media (min-width: 600px) {
+    height: 100vh;
+  }
 }
