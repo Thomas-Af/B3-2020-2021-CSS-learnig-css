@@ -48,6 +48,7 @@ body {
   body {
     background: #A23B72;
     font-size: 1rem;
+    color : #fff;
   }
   header{
     background-color: #70284F;
@@ -65,6 +66,7 @@ body {
   body {
     background: #F18F01;
     font-size: 1.25rem;
+    color : #fff;
   }
   header{
     background-color: #704300;
@@ -85,6 +87,7 @@ body {
   body {
     background: #C73E1D;
     font-size: 1.563rem;
+    color : #fff;
   }
   header{
     background-color: #702411;

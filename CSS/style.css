@@ -55,6 +55,8 @@ footer {
   color: #ffffff;
 }
 /*----------------------------------------------------------------------------*/
+
+
 body {
   background: red;
 }
@@ -67,47 +69,8 @@ a{
   column-span: all;
   text-align: center;
 }
-/*-----------------------MEDIA QUERIES----------------------------------------*/
-/*smartphones mobiles (portrait)*/
-@media (max-width: 480px) {
 
-}
-
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    background: #2E86AB;
-  }
-}
-
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background: #A23B72;
-    color : #fff;
-  }
-}
-
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-  body {
-    background: #F18F01;
-    color : #fff;
-  }
-}
-
-/*desktops - higher resolution*/
-@media (min-width: 1281px) {
-  body {
-    background: #C73E1D;
-    color : #fff;
-  }
-  .example-five {
-    display: block;
-  }
-}
-
-/*----------------------------------------------------------------------------*/
+/*-----------------------------Menu-----------------------------------------------*/
 
 
 header{
@@ -169,6 +132,7 @@ footer{
   height: 50vh;
   position: relative;
   overflow: hidden;
+  break-inside: avoid;
   @media (min-width: 600px) {
     height: 100vh;
   }
