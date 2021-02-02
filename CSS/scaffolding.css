@@ -33,9 +33,16 @@ body {
   }
   header{
     background-color: #1E5870;
+    height: 90px;
   }
   footer{
     background-color: #1E5870;
+  }
+  nav a {
+    background-color: #1E5870;
+  }
+  nav a:hover{
+    background-color: #226480;
   }
   .example-two {
     display: block;
@@ -52,9 +59,16 @@ body {
   }
   header{
     background-color: #70284F;
+    height: 80px;
   }
   footer{
     background-color: #70284F;
+  }
+  nav a {
+    background-color: #70284F;
+  }
+  nav a:hover{
+    background-color: #541E3C;
   }
   .example-three {
     display: block;
@@ -70,9 +84,16 @@ body {
   }
   header{
     background-color: #704300;
+    height: 100px;
   }
   footer{
     background-color: #704300;
+  }
+  nav a {
+    background-color: #704300;
+  }
+  nav a:hover{
+    background-color: #593600;
   }
   .example-three {
     display: none;

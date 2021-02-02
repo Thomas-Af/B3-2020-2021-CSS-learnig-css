@@ -74,7 +74,7 @@ a{
 
 
 header{
-    height: 60px;
+    height: 120px;
     background-color: #fff;
     list-style: none;
     /*position: absolute;*/
@@ -97,6 +97,13 @@ header{
 footer{
   background-color: #000;
   bottom: 0;
+  height: 50px;
+  vertical-align: middle;
+}
+.footer{
+  text-align: right;
+  font-size: 16px;
+  vertical-align: middle;
 }
 
 
@@ -151,3 +158,99 @@ footer{
 .img_perso{
   height: 40vh;
 }
+
+/* Noir et blanc */
+.img_perso {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.img_perso:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+/*--------------------------------------------------------*/
+
+.img-survol{text-decoration: underline dotted;}
+
+a.img-survol span { display: none;}
+
+a.img-survol:hover span{ display: block; }
+
+/*-------------------------------------------------------*/
+.menu{
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  display: block;
+  padding: 0;
+  list-style-type : none;
+  display: flex;
+}
+
+nav a{
+  display: block;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  color: #eee;
+  text-decoration: none;
+  background-color: #702411;
+}
+
+nav a:hover{
+  background-color: #4A180B;
+}
+
+/*Animation qui va bouger le menu mobile vers la gauche lorsqu'il doit être affiché'*/
+@keyframes menuShow {
+  0% {
+    right: -200px;
+  } /*en dehosr de la vue*/
+  100% {
+    right: 0;
+  } /* visible*/
+}
+
+header input[type="checkbox"]{
+  display: none;
+}
+
+header input[type="checkbox"]:checked ~ nav{
+  display: block;
+  animation: menuShow 0.5s normal;
+}
+
+header label{
+  float: right;
+  display: none;
+  font-size: 2rem;
+  line-height: 100px;
+  cursor: pointer;
+  color: #eee;
+}
+
+@media screen and (max-width: 767px){
+  header label{
+    display: block;
+  }
+
+  header nav{
+    position: absolute;
+    z-index: 10;
+    display: none;
+    right: 0em;
+    top: 100px;
+    width: 150px;
+  }
+
+  nav ul{
+    flex-direction: column;
+    margin: 0;
+  }

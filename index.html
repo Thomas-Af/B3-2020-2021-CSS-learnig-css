@@ -14,10 +14,18 @@
     <body>
 
   <header>
-		<li><a href="profil.html" class="lien">Profil</a></li>
-		<li><a href="personnalite.html" class="lien">Personnalités</a></li>
-		<li><a href="evolution.html" class="lien">Evolutions</a></li>
-
+    <div class="menu">
+          <label for="menu-burger" class="show-menu">&#9776;</label>
+          <input type="checkbox" id="menu-burger" role="button">
+          <nav>
+             <ul>
+               <li><a href='index.html'>Accueil</a></li>
+               <li><a href='profil.html'>Profil</a></li>
+               <li><a href='personnalite.html'>Personnalité</a></li>
+               <li><a href='evolution.html'>Evolution</a></li>
+             </ul>
+          </nav>
+        </div>
   </header>
 <h1>Accueil site CSS</h1>
 
@@ -72,50 +80,8 @@
 
 </div>
   <footer>
-    <div class="example-one">
-      <code>
-        <pre>
-    Mode par défaut pour les smartphones en mode portrait
-    </pre>
-      </code>
+    <div class="footer">
+      <a href="mentions.html" id="lien">Mentions légales</a>
     </div>
-
-    <div class="example-two">
-      <code>
-        <pre>
-    Modes pour les tablettes basses résolution et les smartphones en portrait (min : 481px - max : 767px)
-    Le fond de la page est bleu
-    </pre>
-      </code>
-    </div>
-
-    <div class="example-three">
-      <code>
-        <pre>
-          Modes pour les tablettes et les Ipads en paysage (min : 768px - max : 1024px)
-          Le fond de la page est violet
-          </pre>
-      </code>
-    </div>
-
-    <div class="example-four">
-      <code>
-        <pre>
-          Modes pour les ordinateurs portables ou fixe (min : 1025px - max : 1280px)
-          Le fond de la page est jaune doré
-    </pre>
-      </code>
-    </div>
-
-    <div class="example-five">
-      <code>
-        <pre>
-          Modes pour les ordinateurs hautes résolutions (min : 1281px)
-          Le fond de la page est orange rouge
-          reset.css = normalize.css : enlève tous les styles des navigateurs
-    </pre>
-      </code>
-    </div>
-    <li><a href="mentions.html" id="lien">Mentions légales</a></li>
   </footer>
 </html>
