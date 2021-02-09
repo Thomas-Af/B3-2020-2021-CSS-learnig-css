@@ -258,3 +258,13 @@ header label{
     flex-direction: column;
     margin: 0;
   }
+
+
+/*---------------------------------------------------------*/
+/*.para{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}*/
+
+/*---------------------------------------------------------*/

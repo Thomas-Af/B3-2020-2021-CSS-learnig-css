@@ -1,0 +1,26 @@
+.ressource-list{
+  /*max-width: var(--grid-flex-max-witdh);*/
+  margin: 0 auto;
+  padding: 2px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ressource-list > *{
+  flex-basis: 320px;
+  background: #702411;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: 1px solid black;
+}
+.ressource-list-item figure{
+  float: left;
+
+}
+
+.ressources-image{
+
+
+}
