@@ -1,0 +1,29 @@
+.wrapper {
+	display:grid;
+	grid-template-columns:auto 5% 20%;
+	grid-template-rows:auto;
+	grid-template-areas:
+		"header header header"
+		"main . sidebar"
+		"footer footer footer";
+	}
+#header {
+	grid-area:header;
+	background-color:#DBA723;
+	padding:1em;
+}
+#contenu {
+	grid-area:main;
+	background-color:#FFFFFF;
+	padding:1em;
+}
+#colonne {
+	grid-area:sidebar;
+	background-color:#E0E7EA;
+	padding:1em;
+}
+#footer {
+	grid-area:footer;
+	background-color:#5D5048;
+	padding:1em;
+}
