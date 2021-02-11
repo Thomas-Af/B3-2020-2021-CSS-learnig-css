@@ -10,17 +10,29 @@
 
 .ressource-list > *{
   flex-basis: 320px;
-  background: #702411;
+  /*background: #702411;*/
   flex-grow: 1;
   flex-shrink: 0;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 .ressource-list-item figure{
-  float: left;
-
+  text-align: center;
 }
 
-.ressources-image{
+.ressource-list-item img{
+  width: 12em;
+  border-radius: 50%;
+}
 
+.ressource-list-item figcaption{
+  text-align: center;
+}
 
+.ressource-list-item p {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.ressource-list-item a {
+  margin-left: 0.5em;
 }

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   /*padding : 0px;*/
 }
+
 /*-----------------------FONT-------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,300');
 
@@ -41,7 +42,9 @@ h3 {font-size: 1.953rem;
   column-span: all;
 }
 
-h4 {font-size: 1.563rem;}
+h4 {font-size: 1.563rem;
+  column-span: all;
+text-decoration: underline;}
 
 h5 {font-size: 1.25rem;}
 
@@ -70,6 +73,23 @@ a{
   text-align: center;
 }
 
+.boutton {
+  background-color: #acacac;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.boutton:hover{
+  background-color: #f2f2f2;
+  color: black;
+  text-decoration: underline;
+}
 /*-----------------------------Menu-----------------------------------------------*/
 
 
