@@ -59,7 +59,7 @@ body {
   }
   header{
     background-color: #70284F;
-    height: 80px;
+    height: 55px;
   }
   footer{
     background-color: #70284F;
@@ -84,7 +84,7 @@ body {
   }
   header{
     background-color: #704300;
-    height: 100px;
+    height: 60px;
   }
   footer{
     background-color: #704300;
@@ -112,6 +112,7 @@ body {
   }
   header{
     background-color: #702411;
+    height: 80px;
   }
   footer{
     background-color: #702411;

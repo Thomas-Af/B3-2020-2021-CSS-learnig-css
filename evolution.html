@@ -4,10 +4,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8">
         <title>Site CSS - Emilie / Thomas</title>
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css">
         <link rel="stylesheet" type="text/css" href="CSS/colonne.css">
-        <!--<link rel="stylesheet" type="text/css" href="CSS/reset.css">-->
+        <link rel="stylesheet" type="text/css" href="CSS/grid.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     </head>
@@ -68,33 +69,40 @@ CSS 1 a développé un simple mais efficace, mais en dépit de leur grand potent
 <p>HTML et CSS3 sont une langue turation complète, condition suffisante pour une langue soit considérée comme une langage de programmation.</p>
 </div>
 </div>
-<div class="colonne">
 <h2>Les propriétés marquantes</h2>
-<h3>Flexbox</h3>
-<p>Flexbox ou module des boîtes flexibles, a été conçu comme une méthode permettant de distribuer l'espace entre des objets d'une interface ainsi que de les aligner.</p>
-<p>Flexbox  gèrent une seule dimension à la fois : une ligne ou une colonne. Ce modèle est à comparer au modèle bidimensionnel de la disposition en grille (CSS Grid) qui contrôle à la fois les colonnes et les lignes.</p>
-<h4>Quelques propriétés :</h4>
-<p>Flex-direction : établit la directions sur l'axe principal</p>
-<p>Flex-wrap : définit si le container contient une ou plusieurs lignes et la direction sur l'axe perpendiculaire</p>
-<p>Justify-content : définit l'alignement le long de l'axe principal</p>
-<p>Align-items : définit l'alignement le long de l'axe cross</p>
-<h3>CSS-Grid</h3>
-<p>Le module CSS Grid layout est un module CSS qui permet de créer des mises en page en divisant l'espace d'affichage en régions utilisables par une application ou en définissant des relations de taille, position et d'empilement entre les éléments HTML.</p>
-<p>Comme les tableaux, la grille permet d'aligner des éléments sous forme de colonnes et de lignes mais à la différence des tableaux, la grille n'a pas de structure de contenu. Ainsi, on peut créer de nombreuses mises en page qui n'auraient pas été possibles avec les tableaux. </p>
-<h4>Quelques propriétés :</h4>
-<p>Display : définit l'élément en tant que container grid</p>
-<p>Grid-template-rows : spécifie la taille de chaque ligne de la grille CSS</p>
-<p>Grid-template-columns : spécifie la taille de chaque colonne de la grille CSS</p>
-<p>Justify-self : Aligne le contenu d'un item de grille sur l'axe des colonnes</p>
-<h3>Media Queries</h3>
-<p>Les requêtes média (media queries) permettent de modifier l'apparence d'un site ou d'une application en fonction du type d'appareil (impression ou écran par exemple) et de ses caractéristiques (la résolution d'écran ou la largeur de la zone d'affichage (viewport) par exemple).</p>
-<p>Ces bonnes pratiques permettent d'exploiter encore plus les avantages de la séparation du contenu et de la présentation : l'intérêt est de pouvoir satisfaire des contraintes de dimensions, de résolutions et d'autres critères variés pour améliorer l'apparence graphique et la lisibilité (voire l'utilisabilité) d'un site web.</p>
-<h4>Type de médias :</h4>
-<p>All : Correspond à tous les médias</p>
-<p>Print : Correspond aux documents consultés en aperçu avant impression</p>
-<p>Screen : Correspond aux appareils possédant un écran</p>
-<p>Speech : Correspond aux outils de synthése vocale</p>
+
+
+<div class="grid">
+  <div class="titre1"><h3>Flexbox</h3></div>
+  <div class="resume"><p>Flexbox ou module des boîtes flexibles, a été conçu comme une méthode permettant de distribuer l'espace entre des objets d'une interface ainsi que de les aligner.</p>
+    <p>Lorsqu'on travaille avec les boîtes flexibles, deux axes interviennent : l'axe principal (main axis en anglais) et l'axe secondaire (cross axis en anglais). L'axe principal est défini par la propriété flex-direction et l'axe secondaire est l'axe qui lui est perpendiculaire. Tout ce que nous manipulons avec les boîtes flexibles fera référence à ces axes.</p>
 </div>
+  <div class="propriete"><h4>Quelques propriétés :</h4>
+  <p>Flex-direction : établit la directions sur l'axe principal</p>
+  <p>Flex-wrap : définit si le container contient une ou plusieurs lignes et la direction sur l'axe perpendiculaire</p>
+  <p>Justify-content : définit l'alignement le long de l'axe principal</p>
+  <p>Align-items : définit l'alignement le long de l'axe cross</p></div>
+  <div class="titre2"><h3>CSS-Grid</h3></div>
+  <div class="resume"><p>Le module CSS Grid layout est un module CSS qui permet de créer des mises en page en divisant l'espace d'affichage en régions utilisables par une application ou en définissant des relations de taille, position et d'empilement entre les éléments HTML.</p>
+  <p>Comme les tableaux, la grille permet d'aligner des éléments sous forme de colonnes et de lignes mais à la différence des tableaux, la grille n'a pas de structure de contenu. Ainsi, on peut créer de nombreuses mises en page qui n'auraient pas été possibles avec les tableaux. </p>
+</div>
+  <div class="propriete"><h4>Quelques propriétés :</h4>
+  <p>Display : définit l'élément en tant que container grid</p>
+  <p>Grid-template-rows : spécifie la taille de chaque ligne de la grille CSS</p>
+  <p>Grid-template-columns : spécifie la taille de chaque colonne de la grille CSS</p>
+  <p>Justify-self : Aligne le contenu d'un item de grille sur l'axe des colonnes</p></div>
+  <div class="titre3"><h3>Media Queries</h3></div>
+  <div class="resume"><p>Les requêtes média (media queries) permettent de modifier l'apparence d'un site ou d'une application en fonction du type d'appareil (impression ou écran par exemple) et de ses caractéristiques (la résolution d'écran ou la largeur de la zone d'affichage (viewport) par exemple).</p>
+  <p>Ces bonnes pratiques permettent d'exploiter encore plus les avantages de la séparation du contenu et de la présentation : l'intérêt est de pouvoir satisfaire des contraintes de dimensions, de résolutions et d'autres critères variés pour améliorer l'apparence graphique et la lisibilité (voire l'utilisabilité) d'un site web.</p>
+</div>
+  <div class="propriete"><h4>Type de médias :</h4>
+  <p>All : Correspond à tous les médias</p>
+  <p>Print : Correspond aux documents consultés en aperçu avant impression</p>
+  <p>Screen : Correspond aux appareils possédant un écran</p>
+  <p>Speech : Correspond aux outils de synthése vocale</p></div>
+
+</div>
+
 
 <footer>
   <div class="footer">

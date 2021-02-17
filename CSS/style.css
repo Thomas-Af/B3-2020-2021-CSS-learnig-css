@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /*padding : 0px;*/
+  padding: 10px;
 }
 
 /*-----------------------FONT-------------------------------------------------*/
@@ -136,9 +136,6 @@ footer{
   height: 50vh;
   position: relative;
   overflow: hidden;
-  @media (min-width: 600px) {
-    height: 100vh;
-  }
 }
 
 .profil {
@@ -151,11 +148,14 @@ footer{
 }
 /*--------------------------------------------------------*/
 .picture{
-  text-align: center;
-  height: 50vh;
-  @media (min-width: 600px) {
-    height: 100vh;
-  }
+  margin: 0 auto;
+  /*height: 50vh;*/
+  max-width: 50vw;
+  display: block;
+}
+
+.picture img{
+  width: 100%;
 }
 
 /*----------------Image home-------------------------------*/
@@ -278,8 +278,17 @@ header label{
     flex-direction: column;
     margin: 0;
   }
+}
+
+.section1{
+  display: block;
+  flex-grow: 3;
+}
 
 
+figcaption{
+  font-weight: bold;
+}
 /*---------------------------------------------------------*/
 /*.para{
   display: flex;

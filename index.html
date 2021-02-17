@@ -4,12 +4,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8">
         <title>Site CSS - Emilie / Thomas</title>
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css">
         <link rel="stylesheet" type="text/css" href="CSS/colonne.css">
         <link rel="stylesheet" type="text/css" href="CSS/flex.css">
         <link rel="stylesheet" type="text/css" href="CSS/grid.css">
-        <!--<link rel="stylesheet" type="text/css" href="CSS/reset.css">-->
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     </head>
@@ -32,22 +33,20 @@
 <h1>Accueil site CSS</h1>
 
 <div class="colonne">
-<div>
-<section>
+<section class="section1">
 <h2>Section 1 : Les évolutions</h2>
+<div>
 <p>Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.</p>
 
 <p><a href="evolution.html">Evolutions</a></p>
-
+</div>
 <div class="image-home">
   <a href="evolution.html">
     <img class="home" src="img-c/image_css.jpg" >
   </a>
 </div>
 </section>
-</div>
 
-<div >
 <section>
 <h2>Section 2 : Les personnalités</h2>
 <p>Il y a 9 personnaltés a suivre pour comprendre le CSS : </p><br>
@@ -66,9 +65,7 @@
 <p><a href="personnalite.html">Personnalités</a></p>
 
 </section>
-</div>
 
-<div>
 <section>
 <h2>Section 3 : Un profil d'une personnalité</h2>
 <h3>Le profil de Chris Coyier</h3>
@@ -77,14 +74,20 @@
 <p>Et en juin 2012 il lance CodePen, cette commnauté en ligne qui permet de présenter et tester des codes HTML, CSS ou JS.</p>
 <p><a href="profil.html">Profil</a></p>
 </section>
-</div>
+
+<section>
+<h2>Section 4 : Mentions légales</h2>
+<h3>Les techniques utilisées</h3>
+<p>Pour ma page d'accueil j'ai utilisé 'columns'</p>
+<p>Pour ma page personnalités j'ai utilisé 'Flexbox'</p>
+<p>Pour ma page évolution j'ai utilisé 'Grid'</p>
+<p><a href="mentions.html">Mentions légales</a></p>
+</section>
 
 
 </div>
 
 
-
-    </div>
 
   <footer>
     <div class="footer">

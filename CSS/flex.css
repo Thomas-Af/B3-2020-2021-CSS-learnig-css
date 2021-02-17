@@ -1,11 +1,13 @@
 .ressource-list{
   /*max-width: var(--grid-flex-max-witdh);*/
   margin: 0 auto;
+  max-width: 90vw;
   padding: 2px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: stretch;
 }
 
 .ressource-list > *{
@@ -15,6 +17,11 @@
   flex-shrink: 0;
   /*border: 1px solid black;*/
 }
+
+.ressource-list-item{
+  padding-bottom: 10px;
+}
+
 .ressource-list-item figure{
   text-align: center;
 }
@@ -35,4 +42,5 @@
 
 .ressource-list-item a {
   margin-left: 0.5em;
+  align-self: flex-end;
 }
