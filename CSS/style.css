@@ -1,291 +1,308 @@
 * {
-  box-sizing: border-box;
-  padding: 10px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 /*-----------------------FONT-------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,300');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,300");
 
-html {font-size: 100%;} /*16px*/
+html {
+    font-size: 100%;
+} /*16px*/
 
 body {
-  background: white;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.75;
-  color: #000000;
+    background: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #000000;
 }
 
-p {margin-bottom: 1rem;}
+p {
+    margin-bottom: 1rem;
+}
 
-h1, h2, h3, h4, h5 {
-  margin: 3rem 0 1.38rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  line-height: 1.3;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 3rem 0 1.38rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
 }
 
 h1 {
-  margin-top: 0;
-  font-size: 3.052rem;
-  font-weight: bold;
+    margin-top: 0;
+    font-size: 3.052rem;
+    font-weight: bold;
 }
 
-h2 {font-size: 2.441rem;
-  font-weight: bold;
-  column-span: all;
+h2 {
+    font-size: 2.441rem;
+    font-weight: bold;
+    column-span: all;
 }
 
-h3 {font-size: 1.953rem;
-  font-weight: bold;
-  font-style: italic;
-  column-span: all;
+h3 {
+    font-size: 1.953rem;
+    font-weight: bold;
+    font-style: italic;
+    column-span: all;
 }
 
-h4 {font-size: 1.563rem;
-  column-span: all;
-text-decoration: underline;}
+h4 {
+    font-size: 1.563rem;
+    column-span: all;
+    text-decoration: underline;
+}
 
-h5 {font-size: 1.25rem;}
+h5 {
+    font-size: 1.25rem;
+}
 
-small, .text_small {font-size: 0.8rem;}
+small,
+.text_small {
+    font-size: 0.8rem;
+}
 
 footer {
-  background: white;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.75;
-  color: #ffffff;
+    background: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #ffffff;
 }
 /*----------------------------------------------------------------------------*/
 
-
 body {
-  background: red;
+    background: red;
 }
 
-a{
-  color : #fff;
+a {
+    color: #fff;
 }
 
-.image{
-  column-span: all;
-  text-align: center;
+.image {
+    column-span: all;
+    text-align: center;
 }
 
 .boutton {
-  background-color: #acacac;
-  border: none;
-  color: white;
-  padding: 10px;
-  border-radius: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10px;
+    background-color: #acacac;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
 }
 
-.boutton:hover{
-  background-color: #f2f2f2;
-  color: black;
-  text-decoration: underline;
+.boutton:hover {
+    background-color: #f2f2f2;
+    color: black;
+    text-decoration: underline;
 }
 /*-----------------------------Menu-----------------------------------------------*/
 
-
-header{
+header {
     height: 120px;
     background-color: #fff;
     list-style: none;
     /*position: absolute;*/
-
 }
-.lien{
+.lien {
     text-decoration: none;
     color: #ffffff;
     float: right;
     margin-right: 40px;
     margin-top: 10px;
     font-size: 21px;
-
 }
-.lien a:hover{
-    background-color: #C5CDD6;
+.lien a:hover {
+    background-color: #c5cdd6;
     text-decoration: underline;
 }
 
-footer{
-  background-color: #000;
-  bottom: 0;
-  height: 50px;
-  vertical-align: middle;
+footer {
+    background-color: #000;
+    bottom: 0;
+    height: 50px;
+    vertical-align: middle;
 }
-.footer{
-  text-align: right;
-  font-size: 16px;
-  vertical-align: middle;
-}
-
-#en-cours{
-  text-decoration: underline;
+.footer {
+    text-align: right;
+    font-size: 16px;
+    vertical-align: middle;
 }
 
+#en-cours {
+    text-decoration: underline;
+}
 
 /*----------------Image profil-------------------------------*/
 .image-profil {
-  height: 50vh;
-  position: relative;
-  overflow: hidden;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .profil {
-  object-fit: cover;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 /*--------------------------------------------------------*/
-.picture{
-  margin: 0 auto;
-  /*height: 50vh;*/
-  max-width: 50vw;
-  display: block;
+.picture {
+    margin: 0 auto;
+    /*height: 50vh;*/
+    max-width: 50vw;
+    display: block;
 }
 
-.picture img{
-  width: 100%;
+.picture img {
+    width: 100%;
 }
 
 /*----------------Image home-------------------------------*/
 .image-home {
-  height: 50vh;
-  position: relative;
-  overflow: hidden;
-  break-inside: avoid;
-  @media (min-width: 600px) {
-    height: 100vh;
-  }
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    break-inside: avoid;
+    @media (min-width: 600px) {
+        height: 100vh;
+    }
 }
 
 .home {
-  object-fit: contain;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  /*top: 0;*/
-  /*left: 0;*/
+    object-fit: contain;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*top: 0;*/
+    /*left: 0;*/
 }
 
 /*-------------------------------------------------------*/
-.img_perso{
-  height: 40vh;
+.img_perso {
+    height: 40vh;
 }
 
 /* Noir et blanc */
 .img_perso {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .img_perso:hover {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 /*--------------------------------------------------------*/
 
-.img-survol{text-decoration: underline dotted;}
+.img-survol {
+    text-decoration: underline dotted;
+}
 
-a.img-survol span { display: none;}
+a.img-survol span {
+    display: none;
+}
 
-a.img-survol:hover span{ display: block; }
+a.img-survol:hover span {
+    display: block;
+}
 
 /*-------------------------------------------------------*/
-.menu{
-  width: 90%;
-  margin: 0 auto;
+.menu {
+    width: 90%;
+    margin: 0 auto;
 }
 
-nav{
-  float: right;
+nav {
+    float: right;
 }
 
-nav ul{
-  display: block;
-  padding: 0;
-  list-style-type : none;
-  display: flex;
+nav ul {
+    display: block;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
 }
 
-nav a{
-  display: block;
-  box-sizing: border-box;
-  padding: 0.75rem 1rem;
-  color: #eee;
-  text-decoration: none;
-  background-color: #702411;
+nav a {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.75rem 1rem;
+    color: #eee;
+    text-decoration: none;
+    background-color: #702411;
 }
 
-nav a:hover{
-  background-color: #4A180B;
+nav a:hover {
+    background-color: #4a180b;
 }
 
 /*Animation qui va bouger le menu mobile vers la gauche lorsqu'il doit être affiché'*/
 @keyframes menuShow {
-  0% {
-    right: -200px;
-  } /*en dehosr de la vue*/
-  100% {
-    right: 0;
-  } /* visible*/
+    0% {
+        right: -200px;
+    } /*en dehosr de la vue*/
+    100% {
+        right: 0;
+    } /* visible*/
 }
 
-header input[type="checkbox"]{
-  display: none;
-}
-
-header input[type="checkbox"]:checked ~ nav{
-  display: block;
-  animation: menuShow 0.5s normal;
-}
-
-header label{
-  float: right;
-  display: none;
-  font-size: 2rem;
-  line-height: 100px;
-  cursor: pointer;
-  color: #eee;
-}
-
-@media screen and (max-width: 767px){
-  header label{
-    display: block;
-  }
-
-  header nav{
-    position: absolute;
-    z-index: 10;
+header input[type="checkbox"] {
     display: none;
-    right: 0em;
-    top: 100px;
-    width: 150px;
-  }
-
-  nav ul{
-    flex-direction: column;
-    margin: 0;
-  }
 }
 
-.section1{
-  display: block;
-  flex-grow: 3;
+header input[type="checkbox"]:checked ~ nav {
+    display: block;
+    animation: menuShow 0.5s normal;
 }
 
+header label {
+    float: right;
+    display: none;
+    font-size: 2rem;
+    line-height: 100px;
+    cursor: pointer;
+    color: #eee;
+}
 
-figcaption{
-  font-weight: bold;
+@media screen and (max-width: 767px) {
+    header label {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        z-index: 10;
+        display: none;
+        right: 0em;
+        top: 100px;
+        width: 150px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+.section1 {
+    display: block;
+    flex-grow: 3;
+}
+
+figcaption {
+    font-weight: bold;
 }

@@ -1,87 +1,107 @@
 <!DOCTYPE html>
-<html lang="fr" id="noscroll" >
+<html lang="fr" id="noscroll">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8">
-        <title>Site CSS - Emilie / Thomas</title>
-        <link rel="stylesheet" type="text/css" href="CSS/reset.css">
-        <link rel="stylesheet" type="text/css" href="CSS/style.css">
-        <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css">
-        <link rel="stylesheet" type="text/css" href="CSS/grid.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <title>Site CSS - Thomas</title>
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/grid.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet" />
     </head>
     <body>
+        <header>
+            <div class="menu">
+                <label for="menu-burger" class="show-menu">&#9776;</label>
+                <input type="checkbox" id="menu-burger" role="button" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="profil.html">Profil</a></li>
+                        <li><a href="personnalite.html">Personnalité</a></li>
+                        <li><a href="evolution.html">Évolution</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1>Mentions légales</h1>
+            <div class="grid-m">
+                <div class="edit">
+                    <h3>Editeur du Site :</h3>
 
-  <header>
-    <div class="menu">
-          <label for="menu-burger" class="show-menu">&#9776;</label>
-          <input type="checkbox" id="menu-burger" role="button">
-          <nav>
-             <ul>
-               <li><a href='index.html'>Accueil</a></li>
-               <li><a href='profil.html'>Profil</a></li>
-               <li><a href='personnalite.html'>Personnalité</a></li>
-               <li><a href='evolution.html'>Évolution</a></li>
-             </ul>
-          </nav>
-        </div>
-  </header>
-<h1>Mentions légales du site CSS</h1>
-<div>
-<h2>Mentions légales</h2>
-<div class="grid-m">
-<div class="edit">
-<h3>Editeur du Site :</h3>
+                    <p>Thomas Afonso</p>
 
-<p>Thomas Afonso</p>
+                    <p>Responsable éditorial : Thomas Afonso</p>
 
-<p>Responsable éditorial : Thomas Afonso</p>
+                    <p>Adresse : 33000 BORDEAUX</p>
 
-<p>Adresse : 33000 BORDEAUX</p>
+                    <p>Téléphone : 07.08.42.27.59</p>
 
-<p>Téléphone : 07.80.42.72.--</p>
+                    <p>Email : thomasafonso@orange.fr</p>
+                    <p></p>
+                </div>
 
-<p>Email : thomasafonso@orange.fr<p>
-</div>
+                <div class="dev">
+                    <h3>Développement :</h3>
 
+                    <p>Thomas Afonso</p>
 
-<div class="dev">
-<h3>Développement :</h3>
+                    <p>Bachelor 3</p>
 
-<p>Thomas Afonso</p>
+                    <p>Adresse : 33000 Bordeaux</p>
 
-<p>Adresse : 33000 Bordeaux</p>
+                    <p>Téléphone : 07.08.42.27.59</p>
 
-<p>Téléphone : 07.80.42.72.--</p>
+                    <p>Email : thomasafonso@orange.fr</p>
+                    <p></p>
+                </div>
 
-<p>Email : thomasafonso@orange.fr<p>
-</div>
+                <div>
+                    <h3><a href="index.html">Page d'accueil :</a></h3>
 
-<div>
-<h3><a href="index.html">Page d'accueil :</a></h3>
+                    <p>Pour le design de la page d'accueil j'ai utilisé l'élément CSS "Columns" afin de repartir mes différents contenus. Il n'y avait pas beaucoup de contenu c'est pourquoi j'ai utilisé l'attribut "Columns"</p>
+                </div>
+                <div>
+                    <h3><a href="profil.html">Page profil :</a></h3>
 
-<p>Pour le design de la page d'accueil j'ai utilisé l'élément CSS "Columns" afin de repartir mes différents contenus. Il n'y avait pas beaucoup de contenu c'est  pourquoi j'ai utilisé l'attribut "Columns"</p>
-</div>
-<div>
-<h3><a href="profil.html">Page profil :</a></h3>
+                    <p>
+                        Pour la page profil j'ai utilisé je n'ai pas utilisé de mise en page spécifique, excepté pour les photos ou j'ai utilisé les attributs "object-fit" et "picture" afin de rendre les images disponibles pour tous les
+                        écrans.
+                    </p>
+                </div>
+                <div>
+                    <h3><a href="personnalite.html">Page personnalité :</a></h3>
 
-<p>Pour la page profil j'ai utilisé je n'ai pas utilisé de mise en page spécifique, excepté pour les photos ou j'ai utilisé les attributs "object-fit" et "picture".</p>
-</div>
-<div>
-<h3><a href="personnalite.html">Page personnalité :</a></h3>
+                    <p>
+                        La page personnalité est faite avec "Flexbox". J'aurais pu utiliser "Css Grid" pour la mise en page mais en ayant déjà utilisé "Grid" sur une autre page j'ai préféré utiliser "Flexbox", afin de donner l'aspect qu'à
+                        la page actuellement.
+                    </p>
+                </div>
+                <div>
+                    <h3><a href="evolution.html">Page évolution :</a></h3>
 
-<p>La page personnalité est faite avec "Flexbox". J'aurais pu utiliser "Css Grid" pour la mise en page mais en ayant déjà utilisé "Grid" sur une autre page j'ai préféré utiliser "Flexbox".</p>
-</div>
-<div>
-<h3><a href="evolution.html">Page évolution :</a></h3>
+                    <p>
+                        Le début de la page évolution est fait normalement sans attributs spécifique tandis que la seconde partie est faite avec "CSS Grid" pour la mise en pages des propriétés marquantes, afin de faire une coupure avec le
+                        texte du début de pages et afin de structure la seconde partie.
+                    </p>
+                </div>
+                <div class="mentions">
+                    <h3><a href="mentions.html">Page mentions :</a></h3>
 
-<p>Le début de la page évolution est fait normalement sans attributs spécifique tandis que la seconde partie est faite avec "CSS Grid" pour la mise en pages des propriétés marquantes.</p>
-</div>
-</div>
-<footer>
-  <div class="footer">
-    <a href="mentions.html" id="lien" id="en-cours">Mentions légales</a>
-  </div>
-</footer>
+                    <p>Pour cette page qui est la page mentions légales, j'ai utilisé la propriétés "CSS Grid" pour structurer au mieux cette page.</p>
+                </div>
+                <div class="anim">
+                    <h3><a href="mentions.html">Animations :</a></h3>
+
+                    <p>J'ai aussi utilisé des animations sur mon site afin de le rendre plus dynamique. J'ai utilisé des animations comme "keyframes" ou "transition".</p>
+                </div>
+            </div>
+            <footer>
+                <div class="footer">
+                    <a href="mentions.html" id="lien" id="en-cours">Mentions légales</a>
+                </div>
+            </footer>
+    </body>
 </html>

@@ -1,70 +1,66 @@
 <!DOCTYPE html>
-<html lang="fr" id="noscroll" >
+<html lang="fr" id="noscroll">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8">
-        <title>Site CSS - Emilie / Thomas</title>
-        <link rel="stylesheet" type="text/css" href="CSS/reset.css">
-        <link rel="stylesheet" type="text/css" href="CSS/style.css">
-        <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <title>Site CSS - Thomas</title>
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet" />
     </head>
     <body>
-
-  <header>
-    <div class="menu">
-          <label for="menu-burger" class="show-menu">&#9776;</label>
-          <input type="checkbox" id="menu-burger" role="button">
-          <nav>
-             <ul>
-               <li><a href='index.html'>Accueil</a></li>
-               <li><a href='profil.html' id="en-cours">Profil</a></li>
-               <li><a href='personnalite.html'>Personnalité</a></li>
-               <li><a href='evolution.html'>Évolution</a></li>
-             </ul>
-          </nav>
+        <header>
+            <div class="menu">
+                <label for="menu-burger" class="show-menu">&#9776;</label>
+                <input type="checkbox" id="menu-burger" role="button" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="profil.html" id="en-cours">Profil</a></li>
+                        <li><a href="personnalite.html">Personnalité</a></li>
+                        <li><a href="evolution.html">Évolution</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1>Profil de Chris Coyier</h1>
+        <div>
+            <p>Chris Coyier est un web developpeur et un web designer. Il a construit le site CSS-Tricks</p>
+            <p>
+                Il est aussi le co-fondateur de CodePen, un environnement de développement social pour les concepteurs et développeurs Web front-end. Il permet aux utilisateurs d'écrire du HTML, du CSS, du JavaScript et d'autres langages
+                associés.
+            </p>
+            <p>Avec Dave Rupert, Chris est le co-animateur d'un podcast appelé ShopTalk, une émission sur la création de sites Web.</p>
+            <p>Chris a pris la parole lors d'événements et a donné des ateliers dans le monde entier lors de conférences.</p>
         </div>
-  </header>
-<h1>Profil du site CSS</h1>
-<h2>Profil précis de Chris Coyier</h2>
-<div>
-<p>Chris Coyier est un web developpeur et un web designer. Il a construit le site CSS-Tricks</p>
-<p>Il est aussi le co-fondateur de CodePen, un environnement de développement social pour les concepteurs et développeurs Web front-end. Il permet aux utilisateurs d'écrire du HTML, du CSS, du JavaScript et d'autres langages associés. </p>
-<p>Avec Dave Rupert, Chris est le co-animateur d'un podcast appelé ShopTalk, une émission sur la création de sites Web. </p>
-<p>Chris a pris la parole lors d'événements et a donné des ateliers dans le monde entier lors de conférences.</p>
 
-</div>
+        <section class="image-profil">
+            <img class="profil" src="img-c/chris_coyier_2460x1644.jpeg" />
+        </section>
 
-<section class="image-profil">
-    <img class="profil" src="img-c/chris_coyier_2460x1644.jpeg" >
-</section>
+        <h2>Timeline sur la vie de Chris</h2>
+        <div>
+            <ul>
+                <li>Juin 1998 : Diplômé de la "Verona Area High School"</li>
+                <li>Juillet 2007 : Lancement de CSS-Tricks</li>
+                <li>Janvier 2012 : Lancement du "ShopTalk Show"</li>
+                <li>Juin 2012 : Lancement de CodePen</li>
+                <li>Juillet 2016 : Publication de son livre "Practical SVG"</li>
+            </ul>
 
-<h2>Timeline sur la vie de Chris</h2>
-<div>
-<ul>
-  <li>Juin 1998 : Diplômé de la "Verona Area High School"</li>
-  <li>Juillet 2007 : Lancement de CSS-Tricks</li>
-  <li>Janvier 2012 : Lancement du "ShopTalk Show"</li>
-  <li>Juin 2012 : Lancement de CodePen</li>
-  <li>Juillet 2016 : Publication de son livre "Practical SVG"</li>
-</ul>
-
-
-<picture class="picture">
-    <source srcset="https://pbs.twimg.com/profile_images/883049860332609537/IsUISvAq.jpg"
-            media="(min-width: 481px) and (max-width: 849px)">
-    <source srcset="https://speckyboy.com/wp-content/uploads/2019/06/chris-coyier-interview-01.jpg"
-                    media="(min-width: 850px) and (max-width: 950px)">
-    <source srcset="https://codecondo.com/wp-content/uploads/2016/06/Chris-Coyier.jpg"
-                    media="(min-width: 951px)">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/WordCamp_US_2018_-_Chris_Coyier_%28cropped%29.jpg" alt="" />
-</picture>
-
-
-<footer>
-  <div class="footer">
-    <a href="mentions.html" id="lien">Mentions légales</a>
-  </div>
-</footer>
+            <picture class="picture">
+                <source srcset="https://pbs.twimg.com/profile_images/883049860332609537/IsUISvAq.jpg" media="(min-width: 481px) and (max-width: 849px)" />
+                <source srcset="https://speckyboy.com/wp-content/uploads/2019/06/chris-coyier-interview-01.jpg" media="(min-width: 850px) and (max-width: 950px)" />
+                <source srcset="https://codecondo.com/wp-content/uploads/2016/06/Chris-Coyier.jpg" media="(min-width: 951px)" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/WordCamp_US_2018_-_Chris_Coyier_%28cropped%29.jpg" alt="" />
+            </picture>
+        </div>
+            <footer>
+                <div class="footer">
+                    <a href="mentions.html" id="lien">Mentions légales</a>
+                </div>
+            </footer>
+    </body>
 </html>

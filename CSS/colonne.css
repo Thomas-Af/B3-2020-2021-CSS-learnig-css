@@ -1,25 +1,23 @@
 /*------------------------------------------*/
-.colonne{
-columns: 4 250px;
-margin: 5px;
+.colonne {
+    columns: 4 250px;
+    margin: 5px;
 }
 
 /*------------------------------------------*/
-.colonne-2{
-columns: 1 500px;
-/*margin: 5px;*/
+.colonne-2 {
+    columns: 1 500px;
+    /*margin: 5px;*/
 }
 
-.colonne-2 p{
-  column-span: all;
-  /*text-align: center;*/
+.colonne-2 p {
+    column-span: all;
+    /*text-align: center;*/
 }
-.colonne-2 h3{
-  column-span: all;
-  /*text-align: center;*/
+.colonne-2 h3 {
+    column-span: all;
+    /*text-align: center;*/
 }
-.perso{
-  text-align: center;
+.perso {
+    text-align: center;
 }
-
-/*------------------------------------------*/

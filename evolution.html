@@ -1,119 +1,151 @@
 <!DOCTYPE html>
-<html lang="fr" id="noscroll" >
+<html lang="fr" id="noscroll">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8">
-        <title>Site CSS - Emilie / Thomas</title>
-        <link rel="stylesheet" type="text/css" href="CSS/reset.css">
-        <link rel="stylesheet" type="text/css" href="CSS/style.css">
-        <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css">
-        <link rel="stylesheet" type="text/css" href="CSS/grid.css">
-        <link rel="stylesheet" type="text/css" href="CSS/anim.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <title>Site CSS - Thomas</title>
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/scaffolding.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/grid.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/anim.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet" />
     </head>
     <body>
-
-  <header>
-    <div class="menu">
-          <label for="menu-burger" class="show-menu">&#9776;</label>
-          <input type="checkbox" id="menu-burger" role="button">
-          <nav>
-             <ul>
-               <li><a href='index.html'>Accueil</a></li>
-               <li><a href='profil.html'>Profil</a></li>
-               <li><a href='personnalite.html'>Personnalité</a></li>
-               <li><a href='evolution.html' id="en-cours">Évolution</a></li>
-             </ul>
-          </nav>
+        <header>
+            <div class="menu">
+                <label for="menu-burger" class="show-menu">&#9776;</label>
+                <input type="checkbox" id="menu-burger" role="button" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="profil.html">Profil</a></li>
+                        <li><a href="personnalite.html">Personnalité</a></li>
+                        <li><a href="evolution.html" id="en-cours">Évolution</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1>Les évolutions du CSS</h1>
+        <div>
+            <a href="#histoire" class="boutton">Histoire</a>
+            <a href="#propriete" class="boutton">Propriétés</a>
         </div>
-  </header>
-<h1>Évolution du site CSS</h1>
-<div>
-<a href="#histoire" class="boutton">Histoire</a>
-<a href="#propriete" class="boutton">Propriétés</a>
-</div>
 
-<div id="histoire">
-<h2>L'histoire du CSS</h2>
+        <div id="histoire">
+            <h2>L'histoire du CSS</h2>
 
-<div>
-<p>Pour permettre aux auteurs de façonner librement l'apparence de pages web, à partir de 1993 Netscape Navigator et Internet Explorer, le logiciel de navigation deux qui a contesté les utilisateurs dans la note Wars Browser, ils ont présenté tags propriétaires, ou ne pas adhérer à standard ni compatible avec les navigateurs concurrents. Un exemple de ces balises est qui définira les fonte caractère.</p>
+            <div>
+                <p>
+                    Le CSS (Cascading Style Sheets : feuilles de style en cascade) est un langage informatique qui permet la mise en forme d'une page web. Créé par la W3C dans les années 1990 , il est totalement pris en charge par les
+                    navigateurs dans les annés 2000. La première réelle proposition de feuilles de style est proposée par Hakon Wium Lie. Très vite, Dave Raggett qui est alors le principal éditeur du projet de spécification HTML3 publie un
+                    document évoquant le travail de Hakon Wium Lie. La spécification CSS1 finale est publiée le 17 décembre 1996. La première version du CSS ne permet pas une mise en page mais seulement une "mise en style" ( police,couleur,
+                    caractère...).
+                </p>
 
-<p>Ces balises de formatage propriétaires étaient la seule façon pour les auteurs de définir la mise en forme, de sorte que leur utilisation est devenue très intense. Cependant, ces balises ont présenté trois problèmes:</p>
+                <p>En 1997, l'etude du CSS est confiée à une équipe du W3C presidé par Chris Lilley. Ce groupe contient des representants des plus grands navigateurs.</p>
 
-<p>Le premier problème est constitué par la longueur de l'étiquette. Le deuxième problème est le manque de logique du code HTML. Le troisième problème commence à devenir de plus en plus important et il est le manque de compatibilité avec la nouvelle ordinateurs de poche et smartphone.</p>
-<p>Une autre question a été, dans les pages web non standard, l'utilisation de l'étiquette (la tables) Pour la mise en page des pages Web. La disposition de table est considérée comme déplorable par les puristes, car les tables sont conçues pour formater les données sous forme de tableau et non disposition web. En plus de cela, l'utilisation des tableaux comporte aussi des inconvénients pratiques: gain de poids des pages, comme déjà indiqué au problème 1, et l'accessibilité aggravation, que l'ordre logique des données peut être sacrifiée pour des raisons de mise en page. Pourtant, certains soutiennent l'utilisation des tables pour leur facilité de mise en œuvre.</p>
-</div>
-<div>
-<h3>CSS 1</h3>
-<p>Pour tâtons pour résoudre cette situation, en 1996 W3C publié CSS spécifique 1. CSS 1 était un moyen intéressant de séparer le contenu de mise en forme. La base de cette langue, en fait, est que le contenu serait toujours défini par le code HTML (X), alors que la mise en forme serait transféré à un code complètement séparé, CSS avec précision. Les appels entre les deux codes ont été faites par deux caractéristiques particulières: classe et ID. Ces spécifications:</p>
+                <p>
+                    C'est en mai 1998 que la seconde version du CSS, avec ses 70 nouvelles propriétés, apparaît. Des problèmes d'implémentation du CSS conduise le W3C à sortir en 2001 une version revue du CSS2. Le développement du CSS3
+                    débute dès 1999. Cependant le développement est très difficile avec les problèmes de mise à jour et d'implémentation. L'évolution du CSS est constante et il a fallu plus de 10 années pour finaliser sa version 3.
+                </p>
+            </div>
+            <div>
+                <h3>CSS 1</h3>
+                <p>
+                    En 1996 W3C publié CSS spécifique 1. CSS 1 était un moyen intéressant de séparer le contenu de mise en forme. La base de cette langue, est que le contenu serait toujours défini par le code HTML (X), alors que la mise en
+                    forme serait transféré à un code complètement séparé, CSS avec précision. Les appels entre les deux codes ont été faites par deux caractéristiques particulières: classe et ID.
+                </p>
+            </div>
+            <div>
+                <h3>CSS 2 et CSS 2.1</h3>
+                <p>
+                    Pour inclure de nouvelles fonctionnalités et faire de CSS une langue bien pris en charge, en 1998, le W3C a publié la spécification CSS 2. En 2004 a commencé le travail sur les dernières spécifications CSS 2.1 qui sont
+                    devenues des recommandations officielle le 7 Juin 2011. Le CSS 2 permet aussi de créer des feuilles de style séparées pour les appareils mobiles.
+                </p>
 
-<p>Ils étaient une solution efficace au premier problème (à l'exception de la question de l'étiquette) Parce qu'il réduit considérablement la taille de la page.
-Ils ont résolu la deuxième partie parce qu'il a permis le code HTML (X) pour revenir en grande partie simple et basique, mais a montré un manque qui a forcé de recourir à la balise HTML.
-Ils ne sont cependant pas, compte tenu du troisième problème, étant donné que, en 1996, PDA (PDA) ont été mal diffusés.
-CSS 1 a développé un simple mais efficace, mais en dépit de leur grand potentiel ont échoué en raison du manque de navigateur qui peut les soutenir.</p>
-</div>
-<div>
-<h3>CSS 2 et CSS 2.1</h3>
-<p>Pour inclure de nouvelles fonctionnalités et CSS faire une langue bien pris en charge, en 1998, le W3C a publié la spécification CSS 2. En 2004 a commencé le travail sur les dernières spécifications CSS 2.1 qui sont devenues recommandation officielle 7 Juin, 2011. Le CSS 2 sont l'évolution naturelle CSS 1 et offrent des solutions puissantes pour résoudre le troisième problème surtout, avec la possibilité de créer des feuilles de style séparées pour les appareils mobiles. La deuxième question est maintenant complètement résolu, écrire une page (X) HTML adressé exclusivement à la structure et gestion de contenu, puis uniquement avec CSS à impaginarla.</p>
+                <p>A partir de Internet Explorer 5, Firefox et Opera 7, CSS 2 peut faire partie du Code de nombreux sites Web.</p>
+            </div>
+            <div>
+                <h3>CSS 3</h3>
+                <p>
+                    Contrairement au CSS spécifique 2, qui est constitué par une seule spécification, les spécifications CSS3 sont composés de sections séparées appelées « modules ». En raison de cette modularisation, les spécifications
+                    CSS3 ont des états de progrès et de stabilité. En Novembre 2014, cinq modules sont officiellement publiés par le W3C comment recommandations:
+                </p>
 
-<p>A partir de Internet Explorer 5, Firefox et Opera 7, CSS 2 pourrait utiliser le navigateur peut les interpréter et faire partie du Code de nombreux sites Web.</p>
-</div>
-<div>
-<h3>CSS 3</h3>
-<p>Contrairement au CSS spécifique 2, qui est constitué par une seule spécification, les spécifications CSS3 sont composés de sections séparées appelées « modules ». En raison de cette modularisation, les spécifications CSS3 ont des états de progrès et de stabilité. En Novembre 2014, cinq modules sont officiellement publiés par le W3C comment recommandations:</p>
+                <ul>
+                    <li>07-06-2011: Couleur CSS Module Level 3</li>
+                    <li>29-09-2011: CSS niveau 3 Module Namespaces</li>
+                    <li>29-09-2011: Niveau 3 Selectors</li>
+                    <li>19-06-2012: Médias Requêtes</li>
+                    <li>07-11-2013: Attributs de style CSS</li>
+                </ul>
+                <p>CSS3 devrait présenter des solutions a la correction de certains bugs L'interprétation d'Internet Explorer, l'amélioration de la gestion des fonds et une solution pour atteindre des bords arrondis.</p>
+            </div>
+        </div>
+        <div id="propriete">
+            <h2>Les propriétés marquantes</h2>
+        </div>
 
-<p>2011-06-07: Couleur CSS Module Level 3
-2011-09-29: CSS niveau 3 Module Namespaces
-2011-09-29: Niveau 3 Selectors
-2012-06-19: médias Requêtes
-07/11/2013: Attributs de style CSS</p>
-<p>CSS3 devrait présenter des solutions aux la correction de certains bogues L'interprétation d'Internet Explorer[citation nécessaire], l'amélioration de la gestion des fonds et une solution pour atteindre bords arrondis dont la réalisation afflige un peu de temps webdesigner.</p>
+        <div class="grid">
+            <div class="titre1"><h3>Flexbox</h3></div>
+            <div class="resume">
+                <p>Flexbox ou module des boîtes flexibles, a été conçu comme une méthode permettant de distribuer l'espace entre des objets d'une interface ainsi que de les aligner.</p>
+                <p>
+                    Lorsqu'on travaille avec les boîtes flexibles, deux axes interviennent : l'axe principal (main axis en anglais) et l'axe secondaire (cross axis en anglais). L'axe principal est défini par la propriété flex-direction et
+                    l'axe secondaire est l'axe qui lui est perpendiculaire. Tout ce que nous manipulons avec les boîtes flexibles fera référence à ces axes.
+                </p>
+            </div>
+            <div class="propriete">
+                <h4>Quelques propriétés :</h4>
+                <p>Flex-direction : établit la directions sur l'axe principal</p>
+                <p>Flex-wrap : définit si le container contient une ou plusieurs lignes et la direction sur l'axe perpendiculaire</p>
+                <p>Justify-content : définit l'alignement le long de l'axe principal</p>
+                <p>Align-items : définit l'alignement le long de l'axe cross</p>
+            </div>
+            <div class="titre2"><h3>CSS-Grid</h3></div>
+            <div class="resume">
+                <p>
+                    Le module CSS Grid layout est un module CSS qui permet de créer des mises en page en divisant l'espace d'affichage en régions utilisables par une application ou en définissant des relations de taille, position et
+                    d'empilement entre les éléments HTML.
+                </p>
+                <p>
+                    Comme les tableaux, la grille permet d'aligner des éléments sous forme de colonnes et de lignes mais à la différence des tableaux, la grille n'a pas de structure de contenu. Ainsi, on peut créer de nombreuses mises en
+                    page qui n'auraient pas été possibles avec les tableaux.
+                </p>
+            </div>
+            <div class="propriete">
+                <h4>Quelques propriétés :</h4>
+                <p>Display : définit l'élément en tant que container grid</p>
+                <p>Grid-template-rows : spécifie la taille de chaque ligne de la grille CSS</p>
+                <p>Grid-template-columns : spécifie la taille de chaque colonne de la grille CSS</p>
+                <p>Justify-self : Aligne le contenu d'un item de grille sur l'axe des colonnes</p>
+            </div>
+            <div class="titre3"><h3>Media Queries</h3></div>
+            <div class="resume">
+                <p>
+                    Les requêtes média (media queries) permettent de modifier l'apparence d'un site ou d'une application en fonction du type d'appareil (impression ou écran par exemple) et de ses caractéristiques (la résolution d'écran ou
+                    la largeur de la zone d'affichage (viewport) par exemple).
+                </p>
+                <p>
+                    Ces bonnes pratiques permettent d'exploiter encore plus les avantages de la séparation du contenu et de la présentation : l'intérêt est de pouvoir satisfaire des contraintes de dimensions, de résolutions et d'autres
+                    critères variés pour améliorer l'apparence graphique et la lisibilité (voire l'utilisabilité) d'un site web.
+                </p>
+            </div>
+            <div class="propriete">
+                <h4>Type de médias :</h4>
+                <p>All : Correspond à tous les médias</p>
+                <p>Print : Correspond aux documents consultés en aperçu avant impression</p>
+                <p>Screen : Correspond aux appareils possédant un écran</p>
+                <p>Speech : Correspond aux outils de synthése vocale</p>
+            </div>
+        </div>
 
-<p>HTML et CSS3 sont une langue turation complète, condition suffisante pour une langue soit considérée comme une langage de programmation.</p>
-</div>
-</div>
-<div id="propriete">
-<h2>Les propriétés marquantes</h2>
-</div>
-
-
-<div class="grid">
-  <div class="titre1"><h3>Flexbox</h3></div>
-  <div class="resume"><p>Flexbox ou module des boîtes flexibles, a été conçu comme une méthode permettant de distribuer l'espace entre des objets d'une interface ainsi que de les aligner.</p>
-    <p>Lorsqu'on travaille avec les boîtes flexibles, deux axes interviennent : l'axe principal (main axis en anglais) et l'axe secondaire (cross axis en anglais). L'axe principal est défini par la propriété flex-direction et l'axe secondaire est l'axe qui lui est perpendiculaire. Tout ce que nous manipulons avec les boîtes flexibles fera référence à ces axes.</p>
-</div>
-  <div class="propriete"><h4>Quelques propriétés :</h4>
-  <p>Flex-direction : établit la directions sur l'axe principal</p>
-  <p>Flex-wrap : définit si le container contient une ou plusieurs lignes et la direction sur l'axe perpendiculaire</p>
-  <p>Justify-content : définit l'alignement le long de l'axe principal</p>
-  <p>Align-items : définit l'alignement le long de l'axe cross</p></div>
-  <div class="titre2"><h3>CSS-Grid</h3></div>
-  <div class="resume"><p>Le module CSS Grid layout est un module CSS qui permet de créer des mises en page en divisant l'espace d'affichage en régions utilisables par une application ou en définissant des relations de taille, position et d'empilement entre les éléments HTML.</p>
-  <p>Comme les tableaux, la grille permet d'aligner des éléments sous forme de colonnes et de lignes mais à la différence des tableaux, la grille n'a pas de structure de contenu. Ainsi, on peut créer de nombreuses mises en page qui n'auraient pas été possibles avec les tableaux. </p>
-</div>
-  <div class="propriete"><h4>Quelques propriétés :</h4>
-  <p>Display : définit l'élément en tant que container grid</p>
-  <p>Grid-template-rows : spécifie la taille de chaque ligne de la grille CSS</p>
-  <p>Grid-template-columns : spécifie la taille de chaque colonne de la grille CSS</p>
-  <p>Justify-self : Aligne le contenu d'un item de grille sur l'axe des colonnes</p></div>
-  <div class="titre3"><h3>Media Queries</h3></div>
-  <div class="resume"><p>Les requêtes média (media queries) permettent de modifier l'apparence d'un site ou d'une application en fonction du type d'appareil (impression ou écran par exemple) et de ses caractéristiques (la résolution d'écran ou la largeur de la zone d'affichage (viewport) par exemple).</p>
-  <p>Ces bonnes pratiques permettent d'exploiter encore plus les avantages de la séparation du contenu et de la présentation : l'intérêt est de pouvoir satisfaire des contraintes de dimensions, de résolutions et d'autres critères variés pour améliorer l'apparence graphique et la lisibilité (voire l'utilisabilité) d'un site web.</p>
-</div>
-  <div class="propriete"><h4>Type de médias :</h4>
-  <p>All : Correspond à tous les médias</p>
-  <p>Print : Correspond aux documents consultés en aperçu avant impression</p>
-  <p>Screen : Correspond aux appareils possédant un écran</p>
-  <p>Speech : Correspond aux outils de synthése vocale</p></div>
-
-</div>
-
-
-<footer>
-  <div class="footer">
-    <a href="mentions.html" id="lien">Mentions légales</a>
-  </div>
-</footer>
+        <footer>
+            <div class="footer">
+                <a href="mentions.html" id="lien">Mentions légales</a>
+            </div>
+        </footer>
+    </body>
 </html>
