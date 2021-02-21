@@ -16,6 +16,7 @@ body {
     font-weight: 400;
     line-height: 1.75;
     color: #000000;
+    overflow-x: hidden;
 }
 
 p {
@@ -106,6 +107,24 @@ a {
     color: black;
     text-decoration: underline;
 }
+
+.boutton1 {
+    background-color: #232323;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.boutton1:hover {
+    background-color: #acacac;
+    color: black;
+    text-decoration: underline;
+}
 /*-----------------------------Menu-----------------------------------------------*/
 
 header {
@@ -168,6 +187,12 @@ footer {
 
 .picture img {
     width: 100%;
+}
+
+/*-------------------------------------------------------------*/
+.fond {
+  width: 100vw;
+  height: 100vh;
 }
 
 /*----------------Image home-------------------------------*/
